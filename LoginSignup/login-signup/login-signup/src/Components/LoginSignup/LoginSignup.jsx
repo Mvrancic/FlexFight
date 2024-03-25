@@ -22,11 +22,11 @@ const LoginSignup = () => {
                 <input type ="Username" placeholder='Username'/></div>
             
             <div className = 'input'>
-                <input type ="password" placeholder='Password'/>
+                <input type ="password" placeholder='  Password'/>
                 <img src ={ojito} alt=""/></div>
 
             {action ==="Log In" ? <div></div>:<div className = 'input'>
-            <input type ="password" placeholder='Confirm Password'/>
+            <input type ="password" placeholder='  Confirm Password'/>
             <img src ={ojito} alt=""/></div>}
             
             {action ==="Sign Up" ? <div></div>:<div className="forgot-password">Forgot Password? <span> Click Here!</span></div>}
