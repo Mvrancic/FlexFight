@@ -1,6 +1,6 @@
 import React from 'react'
 import './LoginSignup.css'
-import ojito from '../Assets/ojito.jpg'
+import ojito from '../Assets/ojito2.png'
 import { useState } from 'react'
 
 const LoginSignup = () => {
@@ -14,11 +14,11 @@ const LoginSignup = () => {
         </div>
         <div className = 'inputs'>
             {action === "Log In" ? <div></div>:<div className = 'input'>
-                <img src ="" alt=""/>
+                
                 <input type ="Email" placeholder='Email'/></div>
             }
             <div className = 'input'>
-                <img src ="" alt=""/>
+                
                 <input type ="Username" placeholder='Username'/></div>
             
             <div className = 'input'>

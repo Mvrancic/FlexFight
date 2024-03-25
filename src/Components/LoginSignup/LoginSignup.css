@@ -50,13 +50,16 @@
 }
 
 .input img{
-    margin: 0px 5px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
 }
 
 .input input{
     height: 50px;
     width: 400px;
     align-items: left;
+    margin-left: 15px;
     background: transparent;
     border: none;
     outline: none;
