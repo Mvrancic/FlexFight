@@ -56,6 +56,7 @@
 .input input{
     height: 50px;
     width: 400px;
+    align-items: left;
     background: transparent;
     border: none;
     outline: none;
